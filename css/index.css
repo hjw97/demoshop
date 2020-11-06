@@ -1,0 +1,433 @@
+.top {
+    height: 131px;
+    background: #333;
+}
+
+.top1-left img {
+    margin-top: -4px;
+}
+
+.top1-left .pinp {
+    padding-left: 30px;
+}
+
+
+/* 顶部top1左侧 */
+
+.top1 {
+    height: 50px;
+    width: 90%;
+    color: #b2b2b2;
+    margin: 0 auto;
+}
+
+.top1-left {
+    float: left;
+    padding-left: 10px;
+    line-height: 50px;
+    width: 350px;
+    margin: 0 auto;
+}
+
+.top1-left a {
+    display: block;
+    float: left;
+    color: #b2b2b2;
+}
+
+
+/* 顶部top1右侧 */
+
+.top1-right {
+    line-height: 50px;
+    float: right;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.top1-right .cart {
+    display: block;
+    text-align: center;
+    width: 141px;
+    background-color: #424242;
+    border-right: 1px solid #b8b8b8;
+}
+
+.top1-right span:hover .navlist {
+    display: block;
+}
+
+.top1-right .navlist {
+    display: none;
+    text-align: center;
+    margin-left: -10px;
+    float: none;
+    color: black;
+    width: 120px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+    position: absolute;
+}
+
+.top1-right span a:hover {
+    color: red;
+}
+
+.cart i {
+    font-size: 18px;
+    line-height: 20px;
+    margin-right: 4px;
+    vertical-align: -1.5px;
+}
+
+.top1-right li {
+    list-style: none;
+    display: block;
+}
+
+.top1-right span {
+    padding: 0 20px;
+    display: block;
+    float: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.top1-right .a1 {
+    padding-right: 10px;
+    margin-left: 10px;
+}
+
+.top1-right a {
+    float: left;
+    color: #b2b2b2;
+    display: block;
+}
+
+.top1-right span a {
+    float: none;
+}
+
+.top1-right a {
+    float: left;
+    display: block;
+}
+
+.top1-right a img,
+.top1-right span img {
+    margin-right: 5px;
+}
+
+.top1 a:hover {
+    color: white;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+}
+
+
+/* 顶部top2 */
+
+.top2 {
+    height: 80px;
+    border-bottom: 1px solid #b8b8b8;
+    background: white;
+}
+
+.top2-main {
+    width: 90%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.top2-left {
+    float: left;
+}
+
+.fl,
+.search {
+    display: block;
+    float: right
+}
+
+.fl {
+    margin-right: 10px;
+}
+
+.top2 ul li {
+    float: left;
+    list-style: none;
+    padding: 20px 0;
+}
+
+.top2 ul li a {
+    margin: 0 30px;
+    overflow: hidden;
+    display: block;
+    font-size: 18px;
+    color: #1a1a1a;
+    line-height: 40px;
+}
+
+.fl a:hover {
+    color: #ff8410;
+}
+
+.search {
+    margin-left: 25px;
+    margin-right: 15px;
+    height: 80px;
+    padding: 20px 0 0 11px;
+    border-left: 1px solid #b8b8b8;
+    border-right: 1px solid #b8b8b8;
+}
+
+.search-tx {
+    width: 184px;
+    height: 36px;
+    float: left;
+    font-size: 14px;
+    color: #969696;
+    line-height: 36px;
+    padding: 0 12px;
+    background: #ebebeb;
+}
+
+input {
+    outline: 0;
+    border: 0;
+    display: block;
+}
+
+form {
+    overflow: hidden;
+    display: block;
+}
+
+.search-sbt {
+    float: left;
+    width: 48px;
+    height: 36px;
+    line-height: 36px;
+    cursor: pointer;
+    background: url(../image/sousuo.png) center center no-repeat;
+}
+
+.top2 i {
+    display: block;
+}
+
+.carousel-control.left {
+    background-image: none;
+    background-repeat: repeat-x;
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+}
+
+.carousel-control.right {
+    left: auto;
+    right: 0;
+    background-image: none;
+    background-repeat: repeat-x;
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+}
+
+
+/* mian-first样式 */
+
+.main-first {
+    width: 90%;
+    position: relative;
+    height: 403px;
+    margin: 0 auto;
+    margin-top: 65px;
+}
+
+.main-first img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.main-first a {
+    display: block;
+}
+
+.first-content,
+.first-content2 {
+    float: left;
+    width: 50%;
+}
+
+.firstc-img {
+    display: inline-block;
+    line-height: 0;
+    width: 100%;
+    position: static;
+}
+
+.first1 {
+    height: 403px;
+    padding-right: 20px;
+}
+
+.first2 {
+    padding-left: 20px;
+}
+
+.img2 {
+    float: right;
+}
+
+.img-content {
+    background-color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    bottom: 50px;
+    padding: 13px 20px;
+    width: 286px;
+}
+
+.img-content h3 {
+    display: block;
+    line-height: 36px;
+    font-size: 30px;
+}
+
+.img-content .img-content2 {
+    max-width: 30em;
+    color: #5a5a5a;
+    font-family: HPSimplified;
+    display: block;
+    font-size: 16px;
+    margin-top: 1px;
+}
+
+
+/* mian-second样式 */
+
+.main-second {
+    margin-top: 65px;
+    width: 100%;
+    position: relative;
+}
+
+.main-second a {
+    font-size: 23px;
+    width: 130px;
+    color: black;
+    display: block;
+    position: absolute;
+    left: 46%;
+    top: 64%;
+}
+
+.main-second i {
+    display: block;
+    font-style: normal;
+    height: 23px;
+    width: 140px;
+    padding: 0 3px;
+    background: url(../image/tiaozhuan.png) left 95px center no-repeat;
+}
+
+.main-second span {
+    float: left;
+    display: block;
+    margin-top: -3px;
+    padding: 0 3px;
+}
+
+.main-second a:hover {
+    color: #78bc27;
+}
+
+.main-second a i:hover {
+    background: url(../image/tiaozhuan1.png) left 95px center no-repeat;
+}
+
+.footer {
+    height: 450px;
+    background: #5a5a5a;
+    color: #fff;
+    font-family: "微软雅黑";
+}
+
+.foot-contain1,
+.foot-contain2 {
+    width: 90%;
+    margin: 0 auto;
+    padding: 15px 20px;
+}
+
+.foot-bt {
+    border-top: 1px solid #898888;
+}
+
+.foot-contain1 {
+    border-bottom: 1px solid #898888;
+}
+
+.foot-contain1 h2 {
+    font-size: 1em;
+    color: #fff;
+}
+
+.footer .footer-img {
+    background: #fff;
+}
+
+.footer-img {
+    border-top: 1px solid #5a5a5a;
+}
+
+h2 {
+    line-height: 1.6;
+    color: #fff;
+}
+
+.footer img {
+    display: block;
+    height: 189px;
+    margin: 0 auto;
+}
+
+.footer .content {
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px 20px 140px;
+}
+
+.footer .content .content1 {
+    float: left;
+    width: 18%;
+}
+
+.footer .content .content1 ul li {
+    list-style: none;
+    display: block;
+    line-height: 1.5;
+}
+
+.footer .content .content1 ul li a {
+    display: block;
+    color: #fff;
+    font-style: normal;
+    font-size: 13px;
+}
+
+.footer .content .content1 .contfont {
+    font-size: 14px;
+    height: 33px;
+}
+
+.footer .content .content1 ul li a:hover {
+    text-decoration: underline;
+}
+
+.foot2 h2 {
+    color: #b2b2b2;
+    font-size: 13px;
+}
